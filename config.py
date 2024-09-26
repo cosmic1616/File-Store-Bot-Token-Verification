@@ -13,7 +13,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6952528517"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://saadsahebwale:TYjo9Qlosx6f9xNh@cluster0.ahtga.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://nsa837967:xJpEyfDRqgzORt4m@cluster0.m73oa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "codeflix_bots")
 
 #Shortner (token system) 
