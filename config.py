@@ -18,8 +18,8 @@ DB_NAME = os.environ.get("DATABASE_NAME", "codeflix_bots")
 
 #Shortner (token system) 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "vnshortener.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "56f571593a38cf8940187396a98f179f4d94841d")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "gplinks.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "9c1b121ac91fafce71e3732af5d55ef84e142119")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/openshort_links/6") 
