@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>AURIGA</a>\n○ BOTS : <a href='https://t.me/supplywalah_bots'>SUPPLYWALA BOTS</a>\n○ BACKUP : <a href='https://t.me/SUPPLYWALAH'>SUPPLYWALAH</a>\n○ SUPPORT : <a href='https://t.me/Owner_details'>SUPPORT</a>\n○ CREATE YOUR OWN BOT : <a href='https://t.me/HACKING_FREAKS'>HACKING FREAKS</a></b>",
+            text = f"<b>○ ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>AURIGA</a>\n○ BOTS : <a href='https://t.me/supplywalah_bots'>SUPPLYWALA BOTS</a>\n○ BACKUP : <a href='https://t.me/SUPPLYWALAH'>SUPPLYWALAH</a>\n○ SUPPORT : <a href='https://t.me/Owner_details'>SUPPORT</a>\n○ CREATE YOUR OWN BOT : <a href='https://t.me/HACKING_FREAK'>HACKING FREAK</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
