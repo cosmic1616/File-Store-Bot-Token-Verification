@@ -18,8 +18,8 @@ DB_NAME = os.environ.get("DATABASE_NAME", "codeflix_bots")
 
 #Shortner (token system) 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "gplinks.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "9c1b121ac91fafce71e3732af5d55ef84e142119")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "softurl.in")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "c78e343901566f1e8eefce8b4fd63af6adb34279")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/openshort_links/6") 
@@ -51,7 +51,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "Check Our New Site - Supplywalah.infy.uk / desixxxvideos.infy.uk"
+USER_REPLY_TEXT = "Check Our New Site - Supplywalah.infy.uk "
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(6952528517)
