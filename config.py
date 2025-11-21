@@ -6,7 +6,7 @@ from logging.handlers import RotatingFileHandler
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 APP_ID = int(os.environ.get("APP_ID", "20202379"))
 API_HASH = os.environ.get("API_HASH", "cb1d30a2facf3a1d5691fe3dbe8e8482")
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002344239623"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003073409149"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "6952528517"))
@@ -30,7 +30,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002650077569"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}, Thanks for using me :D @swbackups ⚡️.")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first}, Thanks for using me :D @SupplyWalah⚡️.")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "6952528517").split()):
